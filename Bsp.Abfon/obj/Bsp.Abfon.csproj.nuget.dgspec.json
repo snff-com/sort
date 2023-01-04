@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repos\\github\\zerodaypara\\wc\\Bsp.Abfon\\Bsp.Abfon.csproj": {}
+    "D:\\repos\\github\\snff-com\\sort\\Bsp.Abfon\\Bsp.Abfon.csproj": {}
   },
   "projects": {
-    "D:\\repos\\github\\zerodaypara\\wc\\Bsp.Abfon\\Bsp.Abfon.csproj": {
+    "D:\\repos\\github\\snff-com\\sort\\Bsp.Abfon\\Bsp.Abfon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\github\\zerodaypara\\wc\\Bsp.Abfon\\Bsp.Abfon.csproj",
+        "projectUniqueName": "D:\\repos\\github\\snff-com\\sort\\Bsp.Abfon\\Bsp.Abfon.csproj",
         "projectName": "Bsp.Abfon",
-        "projectPath": "D:\\repos\\github\\zerodaypara\\wc\\Bsp.Abfon\\Bsp.Abfon.csproj",
-        "packagesPath": "C:\\Users\\joshz\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\github\\zerodaypara\\wc\\Bsp.Abfon\\obj\\",
+        "projectPath": "D:\\repos\\github\\snff-com\\sort\\Bsp.Abfon\\Bsp.Abfon.csproj",
+        "packagesPath": "C:\\Users\\josh\\.nuget\\packages\\",
+        "outputPath": "D:\\repos\\github\\snff-com\\sort\\Bsp.Abfon\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\joshz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\josh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,29 +44,18 @@
       "frameworks": {
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
-          "dependencies": {
-            "MathNet.Numerics": {
-              "target": "Package",
-              "version": "[4.15.0, )"
-            },
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
-            }
-          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

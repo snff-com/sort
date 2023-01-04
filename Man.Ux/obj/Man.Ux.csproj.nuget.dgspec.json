@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repos\\github\\zerodaypara\\wc\\Man.Ux\\Man.Ux.csproj": {}
+    "D:\\repos\\github\\snff-com\\sort\\Man.Ux\\Man.Ux.csproj": {}
   },
   "projects": {
-    "D:\\repos\\github\\zerodaypara\\wc\\Man.Ux\\Man.Ux.csproj": {
+    "D:\\repos\\github\\snff-com\\sort\\Man.Ux\\Man.Ux.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\github\\zerodaypara\\wc\\Man.Ux\\Man.Ux.csproj",
+        "projectUniqueName": "D:\\repos\\github\\snff-com\\sort\\Man.Ux\\Man.Ux.csproj",
         "projectName": "Man.Ux",
-        "projectPath": "D:\\repos\\github\\zerodaypara\\wc\\Man.Ux\\Man.Ux.csproj",
-        "packagesPath": "C:\\Users\\joshz\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\github\\zerodaypara\\wc\\Man.Ux\\obj\\",
+        "projectPath": "D:\\repos\\github\\snff-com\\sort\\Man.Ux\\Man.Ux.csproj",
+        "packagesPath": "C:\\Users\\josh\\.nuget\\packages\\",
+        "outputPath": "D:\\repos\\github\\snff-com\\sort\\Man.Ux\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\joshz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\josh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,39 +44,18 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "LiveCharts.Wpf": {
-              "target": "Package",
-              "version": "[0.9.7, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[12.0.3, )"
-            },
-            "System.Windows.Interactivity.WPF": {
-              "target": "Package",
-              "version": "[2.0.20525, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WPF": {
-              "privateAssets": "none"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

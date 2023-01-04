@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "94VPRUUAbfoioEdeL8JxbTSbSWn1pMYM5rOCWDNPjk5InAy7pPk47MfFfyRIhUiiGLFmofC6sgPxmBuXdjBLcw==",
+  "dgSpecHash": "v/2WUY5jLBjwrqFW4antiRWY22IC4SsSjTeJu/FiEQi6GBXGXogcIFiqHZ6WT7cA1/QQSV5rtvGkg+ZvSleuIw==",
   "success": true,
-  "projectFilePath": "D:\\repos\\github\\zerodaypara\\wc\\Wc.Pieces\\Wc.Pieces.csproj",
-  "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\repos\\github\\snff-com\\sort\\Wc.Pieces\\Wc.Pieces.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
